@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1000px){
+
+    .body-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-left{
+        display: none;
+        visibility: hidden;
+    }
+
+    .inp-cadastro{
+        width: 40vw;
+    }
+
+    #inp-ddd{
+        width: 8vw;
+    }
+
+    .subtittle-base{
+        display: none;
+        visibility: hidden;
+    }
+
+    .div-itens-right{
+        margin-left:0vw;
+    }
+
+}
+
+@media only screen and (max-width: 930px){
+
+
+    .tittle-base{
+        width: 50vw;
+    }
+
+}
+

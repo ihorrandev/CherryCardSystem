@@ -1,0 +1,33 @@
+@media only screen and (max-width: 623px){
+    .div-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-right{
+        width: 100vw;
+    }
+    
+    .div-left{
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .tittle-base{
+        font-size: 10vw;
+    }
+
+    .subtittle-base{
+        font-size: 4vw;
+    }
+
+    .img-card{
+        width: 40vw;
+    }
+
+    .div-user-list{
+        width: 60vw;
+    }
+
+}

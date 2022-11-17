@@ -1,0 +1,44 @@
+/*geral container*/
+
+.body-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-right{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.div-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 100vh;
+}
+
+/*texts-links*/
+
+.tittle-base{
+    color:var(--color-Bgray);
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 3%;
+    
+}
+
+/*images-icons*/
+
+.img-Check{
+    width: 80%;
+}
+
+/*inputs*/
+
+/*buttons*/

@@ -1,0 +1,25 @@
+.div-main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table, td, tr{
+    border: 2px solid var(--color-cherry);
+    text-align: center;
+}
+
+
+.tittle-base{
+    margin-bottom: 10vh;
+    color: var(--color-Bgray);
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+td,tr{
+    padding: 1vw;
+
+}

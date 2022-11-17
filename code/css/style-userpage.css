@@ -1,0 +1,59 @@
+/*geral container*/
+.body-main{
+    display: flex;
+    justify-content: center;
+}
+/*divs*/
+
+.div-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-cherry);
+    height: 100vh;
+    width: 10vw;
+    border-radius: 0px 40px 40px 0px;
+    padding: 2%;
+}
+
+.div-left{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+/*texts-links*/
+.subtittle-base{
+    color: var(--color-Bwhite);
+    font-weight: 500;
+}
+
+.tittle-ola{
+    color:var(--color-Bgray);
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 3%;
+}
+
+/*images-icons*/
+
+.img-cherry{
+    width: 5vw;
+}
+
+.imgcherrycard{
+    width: 25vw;
+}
+
+.buttonback{
+    margin-bottom: 10vh;
+    margin-left: 75vw;
+    width: 4vw;
+}
+
+/*inputs*/
+
+
+/*buttons*/

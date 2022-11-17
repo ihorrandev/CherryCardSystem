@@ -1,0 +1,5 @@
+@@ PROJETO CHERRY CARD PÁGINAS @@
+
+Página de salvar -> cadastroUser.php;
+Página de salvar2 -> cadastroFun.php;
+Página de mostrar dados(select) -> adminpage.php

@@ -1,0 +1,101 @@
+/*geral container*/
+
+.body-main{
+    display: flex;
+}
+
+/*divs*/
+
+.div-left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-right{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+}
+
+.div-itens-right{
+    margin-left:4vw;
+}
+
+.div-container-inpt{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-inp-radio{
+    margin-top:3vh;
+    display: flex;
+}
+
+/*texts-links*/
+
+.tittle-base{
+    color:var(--color-Bgray);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.subtittle-base{
+    color:var(--color-Bgray);
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/*images-icons*/
+
+.img-cadastro {
+    width: 80%;
+}
+
+/*inputs*/
+.inp-cadastro {
+    margin-top:5vh;
+    width: 25vw;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border: 3px solid #D82C46;
+}
+
+.inp-cadastro:focus{
+    outline-color: var(--color-rubro);
+}
+
+#inp-ddd{
+    width: 5vw;
+}
+
+.inp-radio-cadastro{
+    accent-color: var(--color-cherry);
+    margin-left: 2vw;
+}
+
+/*buttons*/
+
+.btn-login{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    color: var(--color-Bwhite);
+    background-color: var(--color-rubro);
+    cursor: pointer;
+    margin-top: 8%;
+    width: 20vw;
+    transition: background .3s;
+    height: 5vh;
+    border-radius: 8px;
+}
+
+.btn-login:hover {
+    background-color: var(--color-green);
+}
+
+a{
+    width: 20vw;
+}

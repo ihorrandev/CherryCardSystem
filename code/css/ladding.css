@@ -1,0 +1,261 @@
+/*geral container*/
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color-cherry);    /* color of the scroll thumb */
+    border-radius: 20px;     
+  }
+
+.div-body-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-style-cherry{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-cherry);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 30px 0px 0px 30px;
+    padding: 2%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cards-base{
+    display: flex;
+    margin-bottom: -10vw;
+}
+
+.div-youngBussines{
+    margin-top: 20vh;
+}
+
+.young-indications{
+    display: flex;
+    margin-top: 10vh;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*divs*/
+
+
+.div-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 49.3vw;
+    margin-top: 25vh;
+}
+
+.div-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    margin-bottom: 10vh;
+}
+
+.div-sobre{
+    width: 80vw;
+}
+
+.div-cards{
+    margin-top: 10vh;
+    width: 60vw;
+}
+
+.div-youngBussines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-indication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-youngbussines{
+    color: white;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-cherry);
+    width: 50vw;
+    padding: 4%;
+    border-radius: 0px 80px;
+}
+
+.div-tipos-investimentos{
+    display: flex;
+    margin-top: 15vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*texts-links*/
+
+.ancora-link-nav-header {
+    margin-left: 5vw;
+    color: var(--color-Bgray);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.ancora-link-nav-header:hover{
+    color: var(--color-cherry);
+}
+
+.sub-left{
+    width: 25vw;
+    margin-top: 10vh;
+}
+
+.tittle-base{
+    color: var(--color-Bgray);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.tittle-sobre{
+    margin-top: 20vh;
+}
+
+.text-base{
+    font-size: 20px;
+}
+
+.text-sobre{
+    margin-top: 5vh;
+    text-align: right;
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+.sub-sobre{
+    margin-top: 15vh;
+    width: 35vw;
+    text-align: right;
+    margin-left: 45vw;
+    font-weight: 500;
+}
+
+.cherrybomb-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittle-cards{
+    margin-left: 50vw;
+}
+
+.tittle-cherry-card{
+    font-weight: 600;
+    color: var(--color-cherry);
+}
+
+.tittle-cherry-card-2{
+    font-weight: 600;
+    color: var(--color-green);
+}
+
+.tittle-cherry-card-3{
+    font-weight: 600;
+    color: var(--color-rubro);
+}
+
+.text-div-indication{
+    text-align: center;
+    width: 20vw;
+}
+
+.subtittle-youngbussines{
+    margin-top: 10vh;
+}
+
+.text-sobre-youngbussines{
+    margin-top: 5vh;
+}
+
+.subtittle-sobre-young{
+    margin-top: 6vh;
+}
+
+.text-tipo-investimento{
+    color: var(--color-cherry);
+    font-weight: 600;
+    width: 20vw;
+    font-size: 5vw;
+    margin-right: 30vw;
+}
+
+.tipo-investimento{
+    color: var(--color-Bgray);
+    font-weight: 500;
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+
+/*images-icons*/
+
+.img-ancora-link-nav-header{
+    width: 5vw;
+    height: 10vh;
+}
+
+.img-indication{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+
+/*inputs*/
+
+/*buttons*/
+
+.btn-base{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    color: var(--color-Bwhite);
+    background-color: var(--color-rubro);
+    cursor: pointer;
+    margin-top: 5%;
+    width: 20vw;
+    transition: background .3s;
+    height: 5vh;
+    border-radius: 8px;
+    
+}
+
+.btn-base:hover {
+    background-color: var(--color-green);
+}
+
+.footerbtn{
+    margin-bottom: 15vw;
+}

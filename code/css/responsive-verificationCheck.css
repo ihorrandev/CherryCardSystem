@@ -1,0 +1,43 @@
+@media only screen and (max-width: 900px){
+    
+    .div-right{
+        display: none;
+        visibility: hidden;
+    }
+
+    .div-left{
+        width: 40vw;
+        height: 100vh;
+        background-color: yellowgreen;
+    }
+
+    .subtittle{
+        display: none;
+        visibility: hidden;
+    }
+
+    .tittle-base{
+        font-size: vw;
+    }
+
+}
+
+@media only screen and (max-width: 730px){
+
+    .div-left{
+        align-items: center;
+    }
+
+    .btn-back-home{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 436px){
+    
+    .tittle-base{
+        font-size: 5vw;
+    }
+}
+
+
